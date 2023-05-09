@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include kojiwell.template"
+      include_role:
+        name: "kojiwell.template"
